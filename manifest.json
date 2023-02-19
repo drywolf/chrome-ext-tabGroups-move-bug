@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "chrome-ext-tabGroups-move-bug",
+    "description": "chrome-ext-tabGroups-move-bug",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "title": "Reproduce tabGroups.move() bug scenario"
+    },
+    "permissions": [
+        "tabs",
+        "tabGroups"
+    ]
+}
